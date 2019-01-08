@@ -13,4 +13,4 @@ $ npm start
 Once you started the program, use your favorite browser to go to the following URL: 
 http://localhost:5000 to retrieve the output of the call to the **Referential Data** API. 
 
-> To learn more about this sample project, follow the tutorial from [sample-express.md](sample-express.md).
+> To learn how to create this sample project from scratch, follow the tutorial from [sample-express.md](sample-express.md).
