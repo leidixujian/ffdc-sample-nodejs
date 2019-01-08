@@ -1,16 +1,16 @@
-Sample project shows how to obtain security grant (in form of token) from auth server.
+# Sample project shows how to obtain security grant (in form of token) from auth server.
 
-Create an App in FusionFabric.cloud which includes Financial Toolbox APIs
-
-Clone the project.
-Edit .env file to fill client ID, and Access Key. 
-
-Install the dependencies and start the server.
+1. Create an App in FusionFabric.cloud which includes Financial Toolbox APIs
+2. Clone the project.
+3. Edit the `.env` file, and enter the client ID, and Access Key. 
+4. Install the dependencies and start the server.
 
 ```sh
 $ npm install
 $ npm start
 ```
 
-Once you started the program use your favorite browser to go to the following url: 
-http://localhost:5000 to retrieve the output of the call to the /currencies api. 
+Once you started the program, use your favorite browser to go to the following URL: 
+http://localhost:5000 to retrieve the output of the call to the **Referential Data** API. 
+
+To learn more about this sample project, follow the tutorial from [sample-express.md](sample-express.md).
