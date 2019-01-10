@@ -6,6 +6,8 @@ global.Headers = fetch.Headers;
 const issuer = require('./openIdIssuer')();
 
 const app = express();
+var port = 5000;
+
 let client;
 let token;
 
@@ -15,7 +17,7 @@ issuer.then(issuer => {
     client_secret: process.env.CLIENT_SECRET
   });
 
-  app.listen(5000);
+  app.listen(port, () => console.log(`Sample app listening on port ${port}!`));
 });
 
 app.get('/', async (req, res, next) => {
