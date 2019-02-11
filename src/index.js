@@ -34,10 +34,7 @@ app.get('/', async (req, res, next) => {
   }
 
   let countries;
-  var url = 'https://api.fusionfabric.cloud/referential/v1/countries';
-  const options = {
-    headers: { Authorization: 'Bearer ' + token.access_token }
-  };
+  var url = process.env.COUNTRIES_URL;
 
   try {
     const response = await fetch(url, {
