@@ -13,4 +13,4 @@ $ npm start
 ```
 5. Navigate with your favorite browser to http://localhost:5000. The output of the call to the **Referential Data** API is displayed in the browser. 
 
-> To learn how to create this sample project from scratch, follow the tutorial from [sample-express.md](sample-express.md).
+> To learn how to create this sample project from scratch, follow the tutorial from [Developer Portal Documentation](https://developer.fusionfabric.cloud/documentation?workspace=FusionCreator&board=Home&uri=node-sample-app.html). 
