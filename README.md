@@ -4,7 +4,7 @@ This sample project shows how to obtain a security grant (in form of a token) fr
 
 1. Create an App in **Fusion**Fabric.cloud Developer Portal, and include Financial Toolbox APIs.
 2. Clone the current project.
-3. Edit the `.env` file, and enter the client ID, and Access Key. 
+3. Edit the `.env` file, and enter the client ID, Access Key, Authorization Wellknown URL and the GET Countries URL. 
 4. Install the dependencies and start the server:
 
 ```sh
