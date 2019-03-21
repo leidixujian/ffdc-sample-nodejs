@@ -4,6 +4,7 @@ global.Headers = fetch.Headers;
 
 // any non undefined value in param will force manual client configuration
 const issuer = require('./openIdIssuer')();
+issuer.defaultHttpOptions = { timeout: 3500 }
 
 const app = express();
 var port = 5000;
